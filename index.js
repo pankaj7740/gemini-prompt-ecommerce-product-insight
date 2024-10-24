@@ -1,12 +1,14 @@
+require('dotenv').config();
+
 const express = require('express');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require('fs');
 const csvParser = require('csv-parser');
 
-const genAI = new GoogleGenerativeAI('AIzaSyBDNUsBHYRoqceEq7nokOrGdqG4u-pJOmk');
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 const csvFilePath = 'amazon_vfl_reviews_1.csv'; // Your dataset path
 const app = express();
-const port = 3000;
+const port = process.env.PORT
 
 const cors = require('cors');
 app.use(cors());
