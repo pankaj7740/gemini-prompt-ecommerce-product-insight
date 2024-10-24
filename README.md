@@ -11,6 +11,7 @@
     └── index.html    # Main HTML file
 
 
+
 Follow these steps to set up and run the project.
 
 ### 1. Install Required Packages
