@@ -1,0 +1,30 @@
+.product-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
+}
+
+.rating {
+    color: gold; /* Gold color for stars */
+}
+
+.card-body h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+
+
+
+/* Increase modal width and height */
+
+
