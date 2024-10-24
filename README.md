@@ -1,4 +1,4 @@
-# Project Name
+# Ecommerce Product Insight
 
 ## Getting Started
 
@@ -19,6 +19,15 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system. Afte
 
 ```bash
 npm install
+
+node index.js
+
+```
+
+### Go to public directory
+Run the **`index.html`**  file
+
+
 
 
 
